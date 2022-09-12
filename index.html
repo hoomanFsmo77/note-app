@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note app</title>
+    <link rel="icon" href="images/journals.svg">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="welcome to my first website">
+    <meta name="keyword" content="HTML,CSS,PHP,developer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-md-6">
+            <h1 class="text-center">Hooman Note App</h1>
+            <input type="text" id="input" placeholder="Something here..." class="form-control mt-3">
+            <span class="text-danger error-message">&starf;Invalid Value!</span>
+            <div class="row">
+                <div class="col color-box d-flex justify-content-start mt-1">
+                    <div class="color " data-color="#0a53be"></div>
+                    <div class="color" data-color="#0c4128"></div>
+                    <div class="color" data-color="#e21704"></div>
+                    <div class="color" data-color="#e24960"></div>
+                    <div class="color" data-color="#e2df3e"></div>
+                    <div class="color" data-color="#3c34e2"></div>
+                    <div class="color" data-color="#e2922d"></div>
+                    <div class="color" data-color="#b9e223"></div>
+                    <div class="color" data-color="#62e2c7"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <button class="btn btn-sm btn-outline-info me-1" id="add-btn"><i class="bi bi-plus icon-btn" ></i></button>
+                    <button class="btn btn-sm btn-outline-danger" id="remove-btn"><i class="bi bi-eraser-fill icon-btn"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center flex-wrap " id="card-group">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="javascript/Script.js"></script>
+<script src="javascript/bootstrap.bundle.min.js"></script>
+</body>
+</html>

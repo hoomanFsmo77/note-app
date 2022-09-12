@@ -1,0 +1,50 @@
+*{
+    font-family: Cairo, sans-serif,Vazir;
+}
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.color-box .color:nth-child(1){
+    background: #0a53be;
+}
+.color-box .color:nth-child(2){
+    background: #0c4128;
+}
+.color-box .color:nth-child(3){
+    background: #e21704;
+}
+.color-box .color:nth-child(4){
+    background: #e24960;
+}
+.color-box .color:nth-child(5){
+    background: #e2df3e;
+}
+.color-box .color:nth-child(6){
+    background: #3c34e2;
+}
+.color-box .color:nth-child(7){
+    background: #e2922d;
+}
+.color-box .color:nth-child(8){
+    background: #b9e223;
+}
+.color-box .color:nth-child(9){
+    background: #62e2c7;
+}
+.icon-btn{
+    font-size: 1.5rem;
+    line-height: 0;
+}
+.card{
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+.error-message{
+    display: none;
+}
+
